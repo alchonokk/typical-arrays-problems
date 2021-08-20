@@ -1,14 +1,13 @@
 if (array=== undefined || array.length===0){
   return 0;
 }
+
 exports.min = function min (array) {
   if (array=== undefined || array.length===0){
     return 0;
   }
-  
-
-
-
+  var minarr=Math.min.apply(null, array);
+return minarr
 }
 
 exports.max = function max (array) {
@@ -16,6 +15,8 @@ exports.max = function max (array) {
     return 0;
   }
 
+
+  
   
 }
 
